@@ -1,0 +1,12 @@
+:root {
+  --primary-bg: #0d1321;
+  --accent-bg: #1d2d44;
+  --shadow-bg: #3e5c76;
+  --primary-text: #e3e2de;
+  --highlight: #748cab;
+  --accent: #748cab;
+}
+
+.two-column-layout .container {
+  background-image: none;
+}

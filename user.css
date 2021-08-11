@@ -1,0 +1,248 @@
+:root {
+  --primary-bg: #0d1321;
+  --accent-bg: #1d2d44;
+  --shadow-bg: #3e5c76;
+  --primary-text: #e3e2de;
+  --highlight: #748cab;
+  --accent: #748cab;
+}
+
+*,
+html,
+body,
+a {
+  color: var(--primary-text);
+}
+
+.content-top-has-nav .content-top,
+.two-column-layout .content-top,
+.col-sidebar,
+.col-main {
+  background-color: var(--primary-bg);
+}
+
+.shout {
+  border: 0;
+}
+
+.shout-reply {
+  color: var(--primary-text);
+}
+
+.shout-reply:hover {
+}
+
+.secondary-nav-item-link--active:after,
+a.secondary-nav-item-link:focus:after,
+a.secondary-nav-item-link:hover:after {
+  background-color: var(--accent);
+}
+
+.shout::after {
+  border-bottom: 1px solid red;
+  opacity: 0.4;
+}
+
+.chartlist-row::after {
+  border-color: var(--highlight);
+  opacity: 0.4;
+}
+
+.main-content,
+.header,
+.adaptive-skin-wrapper,
+.page-content {
+  background-color: var(--primary-bg);
+}
+
+.col-main {
+  background-color: var(--accent-bg);
+  color: var(--primary-text);
+  border-radius: 5px;
+}
+
+.form-group select {
+  border-color: var(--primary-text);
+  background-color: var(--accent);
+  color: var(--primary-text);
+  box-shadow: none !important;
+}
+
+.listening-report-promo {
+  background-color: var(--accent-bg);
+  border-radius: 5px;
+}
+
+#id_body {
+  background-color: var(--primary-bg);
+  padding: 2px 10px;
+  color: var(--primary-text);
+}
+
+.features-footer {
+  display: none;
+}
+
+.top-bar {
+  background-color: var(--primary-bg);
+}
+
+.chartlist-row--now-scrobbling {
+  background-color: var(--accent);
+}
+
+.chartlist-row--now-scrobbling td a:hover {
+  color: var(--primary-bg);
+}
+
+.chartlist-count-bar-slug {
+  background-color: var(--accent);
+}
+
+.chartlist-count-bar-slug:hover {
+  background-color: var(--shadow-bg) !important;
+}
+
+.player-bar {
+  display: none;
+}
+
+.btn-primary {
+  background-color: var(--accent-bg);
+}
+
+#content .featured-item {
+  display: none;
+}
+
+.shout-user a {
+  color: var(--primary-text);
+}
+
+.mpu-subscription-upsell,
+.stationlinks,
+.subscribe-cta {
+  display: none;
+}
+
+.share-chart {
+  display: none;
+}
+
+.section-with-settings.section-with-share .section-control {
+  right: 24px;
+  color: var(--primary-text);
+  border-right: none;
+}
+
+.section-with-settings .section-control:before {
+  border-right: none;
+}
+
+.dropdown-menu-clickable {
+  background-color: var(--shadow-bg);
+  border: 1px solid var(--primary-text);
+}
+
+.section-settings-toggle:before,
+.dropdown-menu-clickable-button::after,
+.more-link a:before,
+.listening-report-promo-date::after,
+.more-link-fullwidth-right a:before,
+a .chartlist-count-bar-value:after,
+.shout-reply:before,
+.shout .vote-button:before,
+.follower-btn-add-follower {
+  filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%)
+    hue-rotate(174deg) brightness(102%) contrast(90%);
+  opacity: 1;
+}
+
+td.chartlist-play {
+  display: none;
+}
+
+.chartlist-index,
+.chartlist-play,
+.chartlist-image,
+.chartlist-loved,
+.chartlist-name,
+.chartlist-artist,
+.chartlist-buylinks,
+.chartlist-more,
+.chartlist-bar {
+  margin: 0 !important;
+}
+
+.chartlist-artist {
+  padding-left: 120px;
+}
+
+.header-info-primary--with-columns > a:hover,
+.listening-report-promo:hover,
+.chartlist-row:hover,
+.listening-report-promo:hover span {
+  background-color: var(--highlight) !important;
+  color: var(--primary-bg) !important;
+}
+
+.chartlist-row:hover .chartlist-count-bar-slug {
+  background-color: var(--shadow-bg);
+}
+
+.chartlist-love-button:hover {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%)
+    hue-rotate(126deg) brightness(91%) contrast(111%);
+  opacity: 1;
+}
+
+.shoutbox a:hover,
+.shoutbox button:hover {
+  color: var(--primary-text);
+}
+
+.shoutbox-sort-menu {
+  background-color: var(--accent);
+  border: 1px solid var(--primary-text);
+  color: var(--primary-bg);
+}
+
+#shoutbox > section > div.shoutbox-controls-wrapper > div > button {
+  color: var(--primary-text);
+}
+
+.dropdown-menu-clickable-item--selected,
+.dropdown-menu-clickable-item--selected:focus,
+.dropdown-menu-clickable-item--selected:hover {
+  color: var(--primary-bg);
+  font-weight: bold;
+}
+
+.header-title-secondary span,
+.dropdown-menu-clickable-item {
+  color: var(--primary-text);
+}
+
+#shoutbox
+  > section
+  > div.shout-form
+  > form
+  > div.form-group.form-group--submit
+  > div
+  > button {
+  background-color: var(--shadow-bg);
+}
+
+#shoutbox
+  > section
+  > div.shout-form
+  > form
+  > div.form-group.form-group--submit
+  > div
+  > button:hover {
+  background-color: var(--accent);
+}
+
+.shout-form {
+  border-bottom: none;
+}
