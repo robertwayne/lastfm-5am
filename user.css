@@ -29,9 +29,6 @@ a {
   color: var(--primary-text);
 }
 
-.shout-reply:hover {
-}
-
 .secondary-nav-item-link--active:after,
 a.secondary-nav-item-link:focus:after,
 a.secondary-nav-item-link:hover:after {
@@ -39,7 +36,6 @@ a.secondary-nav-item-link:hover:after {
 }
 
 .shout::after {
-  border-bottom: 1px solid red;
   opacity: 0.4;
 }
 
@@ -162,19 +158,19 @@ td.chartlist-play {
   display: none;
 }
 
-.chartlist-index,
-.chartlist-play,
-.chartlist-image,
-.chartlist-loved,
-.chartlist-name,
-.chartlist-artist,
-.chartlist-buylinks,
-.chartlist-more,
-.chartlist-bar {
+#top-tracks .chartlist-index,
+#top-tracks .chartlist-play,
+#top-tracks .chartlist-image,
+#top-tracks .chartlist-loved,
+#top-tracks .chartlist-name,
+#top-tracks .chartlist-artist,
+#top-tracks .chartlist-buylinks,
+#top-tracks .chartlist-more,
+#top-tracks .chartlist-bar {
   margin: 0 !important;
 }
 
-.chartlist-artist {
+#top-tracks .chartlist-artist {
   padding-left: 120px;
 }
 
