@@ -14,25 +14,48 @@ a {
   color: var(--primary-text);
 }
 
+.top-bar,
+.main-content,
+.header,
+.adaptive-skin-wrapper,
+.page-content,
 .content-top-has-nav .content-top,
 .two-column-layout .content-top,
 .col-sidebar,
-.col-main {
+.col-main,
+#id_body {
   background-color: var(--primary-bg);
+}
+
+.catalogue-tags {
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+.personal-stats-inner,
+.album-and-lyrics-row {
+  padding: 12px 0;
+  margin-top: 0;
+}
+
+.form-group select,
+.col-main,
+.shout-reply,
+.shoutbox a:hover,
+.shoutbox button:hover,
+#shoutbox > section > div.shoutbox-controls-wrapper > div > button,
+.header-title-secondary span,
+.dropdown-menu-clickable-item,
+#id_body,
+.section-with-settings.section-with-share .section-control,
+.shout-user a,
+.btn-shortcut,
+.replace-playlink a {
+  color: var(--primary-text);
 }
 
 .shout {
   border: 0;
-}
-
-.shout-reply {
-  color: var(--primary-text);
-}
-
-.secondary-nav-item-link--active:after,
-a.secondary-nav-item-link:focus:after,
-a.secondary-nav-item-link:hover:after {
-  background-color: var(--accent);
 }
 
 .shout::after {
@@ -44,23 +67,12 @@ a.secondary-nav-item-link:hover:after {
   opacity: 0.4;
 }
 
-.main-content,
-.header,
-.adaptive-skin-wrapper,
-.page-content {
-  background-color: var(--primary-bg);
-}
-
 .col-main {
   background-color: var(--accent-bg);
-  color: var(--primary-text);
   border-radius: 5px;
 }
 
 .form-group select {
-  border-color: var(--primary-text);
-  background-color: var(--accent);
-  color: var(--primary-text);
   box-shadow: none !important;
 }
 
@@ -70,28 +82,27 @@ a.secondary-nav-item-link:hover:after {
 }
 
 #id_body {
-  background-color: var(--primary-bg);
   padding: 2px 10px;
-  color: var(--primary-text);
-}
-
-.features-footer {
-  display: none;
-}
-
-.top-bar {
-  background-color: var(--primary-bg);
-}
-
-.chartlist-row--now-scrobbling {
-  background-color: var(--accent);
 }
 
 .chartlist-row--now-scrobbling td a:hover {
   color: var(--primary-bg);
 }
 
-.chartlist-count-bar-slug {
+.chartlist-row--now-scrobbling,
+.chartlist-count-bar-slug,
+.secondary-nav-item-link--active:after,
+a.secondary-nav-item-link:focus:after,
+a.secondary-nav-item-link:hover:after,
+#shoutbox
+  > section
+  > div.shout-form
+  > form
+  > div.form-group.form-group--submit
+  > div
+  > button:hover,
+.form-group select,
+.shoutbox-sort-menu {
   background-color: var(--accent);
 }
 
@@ -99,35 +110,12 @@ a.secondary-nav-item-link:hover:after {
   background-color: var(--shadow-bg) !important;
 }
 
-.player-bar {
-  display: none;
-}
-
 .btn-primary {
   background-color: var(--accent-bg);
 }
 
-#content .featured-item {
-  display: none;
-}
-
-.shout-user a {
-  color: var(--primary-text);
-}
-
-.mpu-subscription-upsell,
-.stationlinks,
-.subscribe-cta {
-  display: none;
-}
-
-.share-chart {
-  display: none;
-}
-
 .section-with-settings.section-with-share .section-control {
   right: 24px;
-  color: var(--primary-text);
   border-right: none;
 }
 
@@ -136,7 +124,6 @@ a.secondary-nav-item-link:hover:after {
 }
 
 .dropdown-menu-clickable {
-  background-color: var(--shadow-bg);
   border: 1px solid var(--primary-text);
 }
 
@@ -148,17 +135,13 @@ a.secondary-nav-item-link:hover:after {
 a .chartlist-count-bar-value:after,
 .shout-reply:before,
 .shout .vote-button:before,
-.follower-btn-add-follower {
+.follower-btn-add-follower,
+.btn-shortcut:before {
   filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%)
     hue-rotate(174deg) brightness(102%) contrast(90%);
   opacity: 1;
 }
 
-td.chartlist-play {
-  display: none;
-}
-
-#top-tracks .chartlist-index,
 #top-tracks .chartlist-play,
 #top-tracks .chartlist-image,
 #top-tracks .chartlist-loved,
@@ -168,6 +151,19 @@ td.chartlist-play {
 #top-tracks .chartlist-more,
 #top-tracks .chartlist-bar {
   margin: 0 !important;
+}
+
+td.chartlist-play,
+#top-tracks .chartlist-index,
+.features-footer,
+.share-chart,
+#content .featured-item,
+.mpu-subscription-upsell,
+.stationlinks,
+.subscribe-cta,
+.player-bar,
+.section-with-separator::after {
+  display: none;
 }
 
 #top-tracks .chartlist-artist {
@@ -182,29 +178,15 @@ td.chartlist-play {
   color: var(--primary-bg) !important;
 }
 
-.chartlist-row:hover .chartlist-count-bar-slug {
-  background-color: var(--shadow-bg);
-}
-
 .chartlist-love-button:hover {
   filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%)
     hue-rotate(126deg) brightness(91%) contrast(111%);
   opacity: 1;
 }
 
-.shoutbox a:hover,
-.shoutbox button:hover {
-  color: var(--primary-text);
-}
-
 .shoutbox-sort-menu {
-  background-color: var(--accent);
   border: 1px solid var(--primary-text);
   color: var(--primary-bg);
-}
-
-#shoutbox > section > div.shoutbox-controls-wrapper > div > button {
-  color: var(--primary-text);
 }
 
 .dropdown-menu-clickable-item--selected,
@@ -214,29 +196,17 @@ td.chartlist-play {
   font-weight: bold;
 }
 
-.header-title-secondary span,
-.dropdown-menu-clickable-item {
-  color: var(--primary-text);
-}
-
+.chartlist-row:hover .chartlist-count-bar-slug,
 #shoutbox
   > section
   > div.shout-form
   > form
   > div.form-group.form-group--submit
   > div
-  > button {
+  > button,
+.dropdown-menu-clickable,
+.btn-shortcut {
   background-color: var(--shadow-bg);
-}
-
-#shoutbox
-  > section
-  > div.shout-form
-  > form
-  > div.form-group.form-group--submit
-  > div
-  > button:hover {
-  background-color: var(--accent);
 }
 
 .shout-form {
