@@ -27,15 +27,8 @@ a {
   background-color: var(--primary-bg);
 }
 
-.catalogue-tags {
-  padding: 12px 0;
-  margin-bottom: 0;
-}
-
-.personal-stats-inner,
-.album-and-lyrics-row {
-  padding: 12px 0;
-  margin-top: 0;
+.container .page-content {
+  padding: 10px;
 }
 
 .form-group select,
@@ -48,9 +41,7 @@ a {
 .dropdown-menu-clickable-item,
 #id_body,
 .section-with-settings.section-with-share .section-control,
-.shout-user a,
-.btn-shortcut,
-.replace-playlink a {
+.shout-user a {
   color: var(--primary-text);
 }
 
@@ -136,7 +127,7 @@ a .chartlist-count-bar-value:after,
 .shout-reply:before,
 .shout .vote-button:before,
 .follower-btn-add-follower,
-.btn-shortcut:before {
+.chartlist-love-button:before {
   filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%)
     hue-rotate(174deg) brightness(102%) contrast(90%);
   opacity: 1;
@@ -161,8 +152,7 @@ td.chartlist-play,
 .mpu-subscription-upsell,
 .stationlinks,
 .subscribe-cta,
-.player-bar,
-.section-with-separator::after {
+.player-bar {
   display: none;
 }
 
@@ -178,7 +168,9 @@ td.chartlist-play,
   color: var(--primary-bg) !important;
 }
 
-.chartlist-love-button:hover {
+.chartlist-row:hover .chartlist-love-button:before,
+.chartlist-love-button:hover,
+.chartlist-row--now-scrobbling .chartlist-love-button:before {
   filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%)
     hue-rotate(126deg) brightness(91%) contrast(111%);
   opacity: 1;
@@ -204,8 +196,7 @@ td.chartlist-play,
   > div.form-group.form-group--submit
   > div
   > button,
-.dropdown-menu-clickable,
-.btn-shortcut {
+.dropdown-menu-clickable {
   background-color: var(--shadow-bg);
 }
 
