@@ -2,6 +2,7 @@
   --primary-bg: #0d1321;
   --accent-bg: #1d2d44;
   --shadow-bg: #3e5c76;
+  --extra-shadow-bg: #070b13;
   --primary-text: #e3e2de;
   --highlight: #748cab;
   --accent: #748cab;
@@ -25,6 +26,20 @@ a {
 .col-main,
 #id_body {
   background-color: var(--primary-bg);
+}
+
+.footer {
+    background-color: var(--extra-shadow-bg);
+}
+
+.listening-report-library-link {
+    background-color: var(--accent-bg);
+    color: var(--primary-text);
+    border-radius: 5px;
+}
+
+.listening-report-library-link:hover {
+    background-color: var(--accent);
 }
 
 .container .page-content {
@@ -202,4 +217,8 @@ td.chartlist-play,
 
 .shout-form {
   border-bottom: none;
+}
+
+.highcharts-background {
+    fill: var(--primary-bg);
 }

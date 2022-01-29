@@ -7,26 +7,6 @@
   --accent: #748cab;
 }
 
-div.col-main {
-  width: 100%;
-  padding: 24px;
-}
-
-.recs-feed {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-#mantle_skin > div:nth-child(3) > div > div.col-main > ul > li {
-  width: 200px !important;
-  height: 200px !important;
-}
-
-#mantle_skin > div:nth-child(3) > div > div.col-main > ul > li:nth-child(5) {
-  margin-top: 0 !important;
-}
-
 .context {
   display: none;
 }
