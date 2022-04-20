@@ -24,7 +24,8 @@ a {
 .two-column-layout .content-top,
 .col-sidebar,
 .col-main,
-#id_body {
+#id_body,
+.content-top-lower {
   background-color: var(--primary-bg);
 }
 
