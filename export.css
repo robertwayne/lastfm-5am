@@ -48,17 +48,18 @@ a {
 }
 
 .footer {
-    background-color: var(--extra-shadow-bg);
+  background-color: var(--extra-shadow-bg);
 }
 
-.listening-report-library-link {
-    background-color: var(--accent-bg);
-    color: var(--primary-text);
-    border-radius: 5px;
+.listening-report-library-link,
+.tab-container {
+  background-color: var(--accent-bg);
+  color: var(--primary-text);
+  border-radius: 5px;
 }
 
 .listening-report-library-link:hover {
-    background-color: var(--accent);
+  background-color: var(--accent);
 }
 
 .container .page-content {
@@ -70,12 +71,13 @@ a {
 .shout-reply,
 .shoutbox a:hover,
 .shoutbox button:hover,
-#shoutbox > section > div.shoutbox-controls-wrapper > div > button,
+#shoutbox>section>div.shoutbox-controls-wrapper>div>button,
 .header-title-secondary span,
 .dropdown-menu-clickable-item,
 #id_body,
 .section-with-settings.section-with-share .section-control,
-.shout-user a {
+.shout-user a,
+.highcharts-series-group {
   color: var(--primary-text);
 }
 
@@ -119,16 +121,15 @@ a {
 .secondary-nav-item-link--active:after,
 a.secondary-nav-item-link:focus:after,
 a.secondary-nav-item-link:hover:after,
-#shoutbox
-  > section
-  > div.shout-form
-  > form
-  > div.form-group.form-group--submit
-  > div
-  > button:hover,
+#shoutbox>section>div.shout-form>form>div.form-group.form-group--submit>div>button:hover,
 .form-group select,
-.shoutbox-sort-menu {
+.shoutbox-sort-menu,
+.tab--selected {
   background-color: var(--accent);
+}
+
+.highcharts-series>rect {
+  fill: var(--highlight);
 }
 
 .chartlist-count-bar-slug:hover {
@@ -162,8 +163,7 @@ a .chartlist-count-bar-value:after,
 .shout .vote-button:before,
 .follower-btn-add-follower,
 .chartlist-love-button:before {
-  filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%)
-    hue-rotate(174deg) brightness(102%) contrast(90%);
+  filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%) hue-rotate(174deg) brightness(102%) contrast(90%);
   opacity: 1;
 }
 
@@ -177,6 +177,12 @@ a .chartlist-count-bar-value:after,
 #top-tracks .chartlist-bar {
   margin: 0 !important;
 }
+
+.only-visible-to-you-container {
+  display: none;
+}
+
+
 
 td.chartlist-play,
 #top-tracks .chartlist-index,
@@ -194,7 +200,7 @@ td.chartlist-play,
   padding-left: 120px;
 }
 
-.header-info-primary--with-columns > a:hover,
+.header-info-primary--with-columns>a:hover,
 .listening-report-promo:hover,
 .chartlist-row:hover,
 .listening-report-promo:hover span {
@@ -205,8 +211,7 @@ td.chartlist-play,
 .chartlist-row:hover .chartlist-love-button:before,
 .chartlist-love-button:hover,
 .chartlist-row--now-scrobbling .chartlist-love-button:before {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%)
-    hue-rotate(126deg) brightness(91%) contrast(111%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%) hue-rotate(126deg) brightness(91%) contrast(111%);
   opacity: 1;
 }
 
@@ -223,13 +228,7 @@ td.chartlist-play,
 }
 
 .chartlist-row:hover .chartlist-count-bar-slug,
-#shoutbox
-  > section
-  > div.shout-form
-  > form
-  > div.form-group.form-group--submit
-  > div
-  > button,
+#shoutbox>section>div.shout-form>form>div.form-group.form-group--submit>div>button,
 .dropdown-menu-clickable {
   background-color: var(--shadow-bg);
 }
@@ -239,7 +238,7 @@ td.chartlist-play,
 }
 
 .highcharts-background {
-    fill: var(--primary-bg);
+  fill: var(--primary-bg);
 }
 }
 
