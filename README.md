@@ -1,6 +1,6 @@
 # lastfm-5am
 
-Dark, blueish theme for[last.fm](https://last.fm).
+Dark, blueish theme for [last.fm](https://last.fm).
 
 <img src="./example.png" alt="Example user page showing off the color choices." width="100%" height="100%">
 
