@@ -15,6 +15,13 @@
 }
 }
 
+@-moz-document url("https://www.last.fm/music")
+{
+#mantle_skin>div:nth-child(3)>div>div.col-sidebar.hidden-xs.buffer-standard.masonry-right-bottom>form {
+    display: none;
+}
+}
+
 @-moz-document url-prefix("https://www.last.fm/")
 {
 :root {
