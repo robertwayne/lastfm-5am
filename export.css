@@ -248,6 +248,14 @@ td.chartlist-play,
 .highcharts-background {
   fill: var(--primary-bg);
 }
+
+text {
+  fill: var(--primary-text) !important;
+}
+
+rect {
+  stroke: var(--primary-bg);
+}
 }
 
 @-moz-document url("https://www.last.fm/charts")
