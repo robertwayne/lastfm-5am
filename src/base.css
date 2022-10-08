@@ -110,10 +110,6 @@ a.secondary-nav-item-link:hover:after,
   background-color: var(--accent);
 }
 
-.highcharts-series>rect {
-  fill: var(--highlight);
-}
-
 .chartlist-count-bar-slug:hover {
   background-color: var(--shadow-bg) !important;
 }
@@ -198,6 +194,10 @@ td.chartlist-play,
 .shoutbox-sort-menu {
   border: 1px solid var(--primary-text);
   color: var(--primary-bg);
+}
+
+.highcharts-series rect {
+  fill: var(--accent)
 }
 
 .dropdown-menu-clickable-item--selected,
