@@ -197,7 +197,8 @@ td.chartlist-play,
 .subscribe-cta,
 .player-bar,
 .section-with-separator::after,
-.only-visible-to-you-container {
+.only-visible-to-you-container,
+.highcharts-text-outline {
   display: none;
 }
 
