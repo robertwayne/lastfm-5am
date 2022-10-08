@@ -13,7 +13,7 @@ def compileFile(to, fileName):
 
 
 def export():
-    with open('export.css', 'w+') as exportFile:
+    with open('lastfm-5am.css', 'w+') as exportFile:
         exportFile.truncate()
         for file in os.listdir('./src'):
             compileFile(exportFile, file.replace('.css', ''))
