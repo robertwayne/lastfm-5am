@@ -195,7 +195,8 @@ td.chartlist-play,
 .section-with-separator::after,
 .only-visible-to-you-container,
 .highcharts-text-outline,
-.date-range-picker-button.disclose-trigger::before {
+.date-range-picker-button.disclose-trigger::before,
+.share-footer {
   display: none;
 }
 
