@@ -186,11 +186,6 @@ a .chartlist-count-bar-value:after,
   margin: 0 !important;
 }
 
-.only-visible-to-you-container {
-  display: none;
-}
-
-
 
 td.chartlist-play,
 #top-tracks .chartlist-index,
@@ -200,7 +195,9 @@ td.chartlist-play,
 .mpu-subscription-upsell,
 .stationlinks,
 .subscribe-cta,
-.player-bar {
+.player-bar,
+.section-with-separator::after,
+.only-visible-to-you-container {
   display: none;
 }
 
