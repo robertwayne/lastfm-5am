@@ -1,18 +1,18 @@
 :root {
-  --primary-bg: #0d1321;
-  --accent-bg: #1d2d44;
-  --shadow-bg: #3e5c76;
-  --extra-shadow-bg: #070b13;
-  --primary-text: #e3e2de;
-  --highlight: #748cab;
-  --accent: #748cab;
+    --primary-bg: #0d1321;
+    --accent-bg: #1d2d44;
+    --shadow-bg: #3e5c76;
+    --extra-shadow-bg: #070b13;
+    --primary-text: #e3e2de;
+    --highlight: #748cab;
+    --accent: #748cab;
 }
 
 *,
 html,
 body,
 a {
-  color: var(--primary-text);
+    color: var(--primary-text);
 }
 
 .top-bar,
@@ -26,26 +26,26 @@ a {
 .col-main,
 #id_body,
 .content-top-lower {
-  background-color: var(--primary-bg);
+    background-color: var(--primary-bg);
 }
 
 .footer {
-  background-color: var(--extra-shadow-bg);
+    background-color: var(--extra-shadow-bg);
 }
 
 .listening-report-library-link,
 .tab-container {
-  background-color: var(--accent-bg);
-  color: var(--primary-text);
-  border-radius: 5px;
+    background-color: var(--accent-bg);
+    color: var(--primary-text);
+    border-radius: 5px;
 }
 
 .listening-report-library-link:hover {
-  background-color: var(--accent);
+    background-color: var(--accent);
 }
 
 .container .page-content {
-  padding: 10px;
+    padding: 10px;
 }
 
 .form-group select,
@@ -53,49 +53,49 @@ a {
 .shout-reply,
 .shoutbox a:hover,
 .shoutbox button:hover,
-#shoutbox>section>div.shoutbox-controls-wrapper>div>button,
+#shoutbox > section > div.shoutbox-controls-wrapper > div > button,
 .header-title-secondary span,
 .dropdown-menu-clickable-item,
 #id_body,
 .section-with-settings.section-with-share .section-control,
 .shout-user a,
 .highcharts-series-group {
-  color: var(--primary-text);
+    color: var(--primary-text);
 }
 
 .shout {
-  border: 0;
+    border: 0;
 }
 
 .shout::after {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .chartlist-row::after {
-  border-color: var(--highlight);
-  opacity: 0.4;
+    border-color: var(--highlight);
+    opacity: 0.4;
 }
 
 .col-main {
-  background-color: var(--accent-bg);
-  border-radius: 5px;
+    background-color: var(--accent-bg);
+    border-radius: 5px;
 }
 
 .form-group select {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .listening-report-promo {
-  background-color: var(--accent-bg);
-  border-radius: 5px;
+    background-color: var(--accent-bg);
+    border-radius: 5px;
 }
 
 #id_body {
-  padding: 2px 10px;
+    padding: 2px 10px;
 }
 
 .chartlist-row--now-scrobbling td a:hover {
-  color: var(--primary-bg);
+    color: var(--primary-bg);
 }
 
 .chartlist-row--now-scrobbling,
@@ -103,32 +103,38 @@ a {
 .secondary-nav-item-link--active:after,
 a.secondary-nav-item-link:focus:after,
 a.secondary-nav-item-link:hover:after,
-#shoutbox>section>div.shout-form>form>div.form-group.form-group--submit>div>button:hover,
+#shoutbox
+    > section
+    > div.shout-form
+    > form
+    > div.form-group.form-group--submit
+    > div
+    > button:hover,
 .form-group select,
 .shoutbox-sort-menu,
 .tab--selected {
-  background-color: var(--accent);
+    background-color: var(--accent);
 }
 
 .chartlist-count-bar-slug:hover {
-  background-color: var(--shadow-bg) !important;
+    background-color: var(--shadow-bg) !important;
 }
 
 .btn-primary {
-  background-color: var(--accent-bg);
+    background-color: var(--accent-bg);
 }
 
 .section-with-settings.section-with-share .section-control {
-  right: 24px;
-  border-right: none;
+    right: 24px;
+    border-right: none;
 }
 
 .section-with-settings .section-control:before {
-  border-right: none;
+    border-right: none;
 }
 
 .dropdown-menu-clickable {
-  border: 1px solid var(--primary-text);
+    border: 1px solid var(--primary-text);
 }
 
 .section-settings-toggle:before,
@@ -141,8 +147,9 @@ a .chartlist-count-bar-value:after,
 .shout .vote-button:before,
 .follower-btn-add-follower,
 .chartlist-love-button:before {
-  filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%) hue-rotate(174deg) brightness(102%) contrast(90%);
-  opacity: 1;
+    filter: brightness(0) saturate(100%) invert(52%) sepia(7%) saturate(1423%) hue-rotate(174deg)
+        brightness(102%) contrast(90%);
+    opacity: 1;
 }
 
 #top-tracks .chartlist-play,
@@ -153,9 +160,8 @@ a .chartlist-count-bar-value:after,
 #top-tracks .chartlist-buylinks,
 #top-tracks .chartlist-more,
 #top-tracks .chartlist-bar {
-  margin: 0 !important;
+    margin: 0 !important;
 }
-
 
 td.chartlist-play,
 #top-tracks .chartlist-index,
@@ -171,26 +177,27 @@ td.chartlist-play,
 .highcharts-text-outline,
 .date-range-picker-button.disclose-trigger::before,
 .share-footer {
-  display: none;
+    display: none;
 }
 
 #top-tracks .chartlist-artist {
-  padding-left: 120px;
+    padding-left: 120px;
 }
 
-.header-info-primary--with-columns>a:hover,
+.header-info-primary--with-columns > a:hover,
 .listening-report-promo:hover,
 .chartlist-row:hover,
 .listening-report-promo:hover span {
-  background-color: var(--highlight) !important;
-  color: var(--primary-bg) !important;
+    background-color: var(--highlight) !important;
+    color: var(--primary-bg) !important;
 }
 
 .chartlist-row:hover .chartlist-love-button:before,
 .chartlist-love-button:hover,
 .chartlist-row--now-scrobbling .chartlist-love-button:before {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%) hue-rotate(126deg) brightness(91%) contrast(111%);
-  opacity: 1;
+    filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7500%) hue-rotate(126deg)
+        brightness(91%) contrast(111%);
+    opacity: 1;
 }
 
 .date-range-picker-button,
@@ -199,43 +206,44 @@ td.chartlist-play,
 .navlist-item,
 .secondary-nav-item-link--active,
 .user-dashboard-section-header {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(825%) hue-rotate(327deg) brightness(90%) contrast(93%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(825%) hue-rotate(327deg)
+        brightness(90%) contrast(93%);
 }
 
 .shoutbox-sort-menu {
-  border: 1px solid var(--primary-text);
-  color: var(--primary-bg);
+    border: 1px solid var(--primary-text);
+    color: var(--primary-bg);
 }
 
 .highcharts-series rect {
-  fill: var(--accent)
+    fill: var(--accent);
 }
 
 .dropdown-menu-clickable-item--selected,
 .dropdown-menu-clickable-item--selected:focus,
 .dropdown-menu-clickable-item--selected:hover {
-  color: var(--primary-bg);
-  font-weight: bold;
+    color: var(--primary-bg);
+    font-weight: bold;
 }
 
 .chartlist-row:hover .chartlist-count-bar-slug,
-#shoutbox>section>div.shout-form>form>div.form-group.form-group--submit>div>button,
+#shoutbox > section > div.shout-form > form > div.form-group.form-group--submit > div > button,
 .dropdown-menu-clickable {
-  background-color: var(--shadow-bg);
+    background-color: var(--shadow-bg);
 }
 
 .shout-form {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .highcharts-background {
-  fill: var(--primary-bg);
+    fill: var(--primary-bg);
 }
 
 text {
-  fill: var(--primary-text) !important;
+    fill: var(--primary-text) !important;
 }
 
 rect {
-  stroke: var(--primary-bg);
+    stroke: var(--primary-bg);
 }
