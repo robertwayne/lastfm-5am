@@ -202,7 +202,8 @@ td.chartlist-play,
 .only-visible-to-you-container,
 .highcharts-text-outline,
 .date-range-picker-button.disclose-trigger::before,
-.share-footer {
+.share-footer 
+.profile-header-set-obsession {
     display: none;
 }
 
